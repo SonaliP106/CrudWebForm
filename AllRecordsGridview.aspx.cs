@@ -33,23 +33,7 @@ namespace WebApplication11CrudWebForm
                 Response.Redirect("~/EditEmployee.aspx?Id=" + id);
             }
 
-            //else if (e.CommandName == "delete")
-            //{
-            //    int row = Convert.ToInt32(e.CommandArgument);
-            //    int id = Convert.ToInt32(GridView1.DataKeys[row].Value);
-            //    using (SqlConnection con = new SqlConnection(cs))
-            //    {
-            //        con.Open();
-            //        SqlCommand cmd = new SqlCommand("DeleteById ", con);
-            //        cmd.CommandType = CommandType.StoredProcedure;
-
-            //        cmd.Parameters.AddWithValue("@Id", id);
-            //        cmd.ExecuteNonQuery();
-                   
-                   
-            //    }
-            //    LoadData();
-            //}
+            
         }
 
         public void LoadData()
